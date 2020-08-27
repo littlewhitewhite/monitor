@@ -1,0 +1,186 @@
+﻿生成启动时间为 2020/8/26 15:38:57。
+     1>项目“C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Monitor\Monitor.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Monitor.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\StandardMonitor.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\StandardMonitor.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Aes.cpp Base64.cpp DbSqlite.cpp HMAC_SHA1.cpp Monitor.cpp MonitorDlg.cpp SetKbaseInfoDlg.cpp ThreadPool.cpp RegistInfoDlg.cpp SHA1.cpp unzip.cpp UpdateProgress.cpp zip.cpp ZipImplement.cpp
+         Aes.cpp
+     1>Aes.cpp(1060): warning C4018: “<”: 有符号/无符号不匹配
+     1>Aes.cpp(1071): warning C4018: “<”: 有符号/无符号不匹配
+     1>Aes.cpp(1082): warning C4018: “<”: 有符号/无符号不匹配
+     1>Aes.cpp(1103): warning C4018: “<”: 有符号/无符号不匹配
+     1>Aes.cpp(1114): warning C4018: “<”: 有符号/无符号不匹配
+     1>Aes.cpp(1126): warning C4018: “<”: 有符号/无符号不匹配
+         Base64.cpp
+         DbSqlite.cpp
+         Unicode Selected
+         HMAC_SHA1.cpp
+         Monitor.cpp
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(866): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(867): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(868): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “j”: 未引用的局部变量
+         Unicode Selected
+     1>Monitor.cpp(512): warning C4018: “<”: 有符号/无符号不匹配
+     1>Monitor.cpp(949): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>Monitor.cpp(992): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+     1>Monitor.cpp(995): warning C4018: “>=”: 有符号/无符号不匹配
+     1>Monitor.cpp(3017): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>Monitor.cpp(3346): warning C4996: 'GetVersion': 被声明为已否决
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : 参见“GetVersion”的声明
+     1>Monitor.cpp(3585): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+         MonitorDlg.cpp
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(866): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(867): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(868): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “j”: 未引用的局部变量
+         Unicode Selected
+     1>MonitorDlg.cpp(347): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>MonitorDlg.cpp(906): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(1271): warning C4996: 'ATL::CRegKey::QueryValue': CRegKey::QueryValue(TCHAR *value, TCHAR *valueName) has been superseded by CRegKey::QueryStringValue and CRegKey::QueryMultiStringValue
+                 D:\vs2013\VC\atlmfc\include\atlbase.h(5592) : 参见“ATL::CRegKey::QueryValue”的声明
+     1>MonitorDlg.cpp(1286): warning C4996: 'ATL::CRegKey::QueryValue': CRegKey::QueryValue(TCHAR *value, TCHAR *valueName) has been superseded by CRegKey::QueryStringValue and CRegKey::QueryMultiStringValue
+                 D:\vs2013\VC\atlmfc\include\atlbase.h(5592) : 参见“ATL::CRegKey::QueryValue”的声明
+     1>MonitorDlg.cpp(1394): warning C4996: 'ATL::CRegKey::QueryValue': CRegKey::QueryValue(TCHAR *value, TCHAR *valueName) has been superseded by CRegKey::QueryStringValue and CRegKey::QueryMultiStringValue
+                 D:\vs2013\VC\atlmfc\include\atlbase.h(5592) : 参见“ATL::CRegKey::QueryValue”的声明
+     1>MonitorDlg.cpp(1406): warning C4996: 'ATL::CRegKey::QueryValue': CRegKey::QueryValue(TCHAR *value, TCHAR *valueName) has been superseded by CRegKey::QueryStringValue and CRegKey::QueryMultiStringValue
+                 D:\vs2013\VC\atlmfc\include\atlbase.h(5592) : 参见“ATL::CRegKey::QueryValue”的声明
+     1>MonitorDlg.cpp(1532): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+     1>MonitorDlg.cpp(1548): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+     1>MonitorDlg.cpp(2558): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>MonitorDlg.cpp(2564): warning C4244: “参数”: 从“ULONGLONG”转换到“UINT”，可能丢失数据
+     1>MonitorDlg.cpp(2660): warning C4244: “初始化”: 从“std::streamsize”转换到“UINT”，可能丢失数据
+     1>MonitorDlg.cpp(3131): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(3148): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(3169): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(3179): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(3263): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(3571): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(3911): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(3940): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(3997): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(4007): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(4047): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(4271): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(4324): warning C4805: “!=”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+     1>MonitorDlg.cpp(4708): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(4938): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(5410): warning C4244: “return”: 从“time_t”转换到“unsigned long”，可能丢失数据
+     1>MonitorDlg.cpp(5436): warning C4018: “<=”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(5566): warning C4018: “<=”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(5662): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(5737): warning C4101: “numOfDirItemsPre”: 未引用的局部变量
+     1>MonitorDlg.cpp(6118): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(6316): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(6336): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8361): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8390): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8707): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8737): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8740): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8754): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8788): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8818): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(8831): warning C4018: “<”: 有符号/无符号不匹配
+     1>MonitorDlg.cpp(9946): warning C4996: 'GetVersionExW': 被声明为已否决
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442) : 参见“GetVersionExW”的声明
+     1>MonitorDlg.cpp(10421): warning C4018: “<”: 有符号/无符号不匹配
+         SetKbaseInfoDlg.cpp
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(866): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(867): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(868): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “j”: 未引用的局部变量
+         Unicode Selected
+         ThreadPool.cpp
+         RegistInfoDlg.cpp
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(866): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(867): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(868): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “j”: 未引用的局部变量
+         Unicode Selected
+         SHA1.cpp
+     1>SHA1.cpp(168): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>SHA1.cpp(247): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\string.h(118) : 参见“strcat”的声明
+     1>SHA1.cpp(252): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\string.h(118) : 参见“strcat”的声明
+     1>SHA1.cpp(258): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\string.h(118) : 参见“strcat”的声明
+     1>SHA1.cpp(263): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\string.h(118) : 参见“strcat”的声明
+     1>SHA1.cpp(267): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\string.h(112) : 参见“strcpy”的声明
+         unzip.cpp
+     1>unzip.cpp(2664): warning C4244: “初始化”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+     1>unzip.cpp(2743): warning C4244: “=”: 从“ULONGLONG”转换到“unsigned int”，可能丢失数据
+     1>unzip.cpp(2744): warning C4244: “+=”: 从“ULONGLONG”转换到“unsigned int”，可能丢失数据
+     1>unzip.cpp(2745): warning C4244: “=”: 从“ULONGLONG”转换到“unsigned int”，可能丢失数据
+     1>unzip.cpp(3189): warning C4244: “参数”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3221): warning C4244: “+=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+     1>unzip.cpp(3228): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3244): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3256): warning C4244: “+=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+     1>unzip.cpp(3259): warning C4244: “+=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+     1>unzip.cpp(3268): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3377): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3378): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3533): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3535): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3746): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3820): warning C4244: “=”: 从“ULONGLONG”转换到“uLong”，可能丢失数据
+     1>unzip.cpp(3899): warning C4244: “初始化”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+     1>unzip.cpp(3926): warning C4244: “=”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>unzip.cpp(3948): warning C4244: “=”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>unzip.cpp(3979): warning C4244: “初始化”: 从“ULONGLONG”转换到“unsigned long”，可能丢失数据
+     1>unzip.cpp(3986): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>unzip.cpp(4000): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+     1>unzip.cpp(4001): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+         UpdateProgress.cpp
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(866): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(867): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(868): warning C4309: “初始化”: 截断常量值
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\lc\desktop\work2019\pro2\monitor_copy\standardmonitor\monitor\EnDecryption.h(872): warning C4101: “j”: 未引用的局部变量
+         Unicode Selected
+         zip.cpp
+         ZipImplement.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /IRelease\ /nologo /fo"Release\Monitor.res" Monitor.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Release\StandardMonitor.exe" /INCREMENTAL:NO /NOLOGO Delayimp.lib /DELAYLOAD:ReaderEx.dll /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Release\StandardMonitor.pdb" /SUBSYSTEM:WINDOWS /STACK:"10000000" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Release\StandardMonitor.lib" /MACHINE:X86 /SAFESEH Release\Monitor.res
+         Release\Aes.obj
+         Release\Base64.obj
+         Release\DbSqlite.obj
+         Release\HMAC_SHA1.obj
+         Release\Monitor.obj
+         Release\MonitorDlg.obj
+         Release\SetKbaseInfoDlg.obj
+         Release\ThreadPool.obj
+         Release\RegistInfoDlg.obj
+         Release\SHA1.obj
+         Release\stdafx.obj
+         Release\unzip.obj
+         Release\UpdateProgress.obj
+         Release\zip.obj
+         Release\ZipImplement.obj
+         正在生成代码
+         已完成代码的生成
+     1>sqlite3.lib(sqlite3.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“sqlite3.lib(sqlite3.obj)”或在“C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Release\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lib_json.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lib_json.lib(json_reader.obj)”或在“C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lib_json.lib(json_value.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lib_json.lib(json_value.obj)”或在“C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>lib_json.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“lib_json.lib(json_writer.obj)”或在“C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Monitor.vcxproj -> C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Release\StandardMonitor.exe
+     1>已完成生成项目“C:\Users\LC\Desktop\work2019\Pro2\monitor_copy\StandardMonitor\Monitor\Monitor.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:28.47
